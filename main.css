@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.continer {
+    border: 1px solid rgb(124, 126, 124);
+    width: 270px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.ics {
+    font-size: 13px;
+    color: rgb(224, 224, 219);
+}
+
+.out {
+    font-size: 25px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.continer .num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.orange {
+    color: rgb(255, 102, 0);
+}
+
+.time {
+    color: rgb(224, 224, 219);
+}
+
+input {
+    width: 100%;
+    height: 90px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 22px;
+    margin: 3px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgba(39, 38, 38, 0.329);
+    font-size: 25px;
+    transition: all 0.2s;
+}
+
+button:hover {
+    transform: scale(0.9);
+    background-color: rgba(83, 83, 83, 0.329);
+}
+
+.nour {
+    opacity: 0.4;
+}
+
+.green {
+    color: green;
+}
+
+#clear {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.white {
+    background-color: green;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(185, 181, 181, 0.096);
+}
+
+.icon .plus {
+    font-size: 16px;
+    color: rgb(156, 156, 154);
+    margin: 18px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.last span {
+    color: rgb(156, 156, 154);
+    margin: 3px 30px;
+}
+
+.last i {
+    font-size: 13px;
+}

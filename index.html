@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="continer">
+
+        <div>
+            <section class="up">
+                <span class="time"></span>
+
+                <div class="ics">
+                    <span><i class="fa-solid fa-wifi"></i></span>
+                    <span><i class="fa-solid fa-signal"></i></span>
+                    <span><i class="fa-solid fa-battery-full"></i></span>
+            </section>
+
+
+
+            <input dir="rtl" type="text" class="out" id="calc">
+
+            <div class="icon">
+                <div> <span class="plus"><i class="fa-solid fa-clock"></i></span>
+                    <span class="plus"><i class="fa-solid fa-eraser"></i></span>
+                    <span class="plus"><i class="fa-regular fa-calendar-xmark"></i></span>
+                </div>
+
+                <div><span id="clear" class="green nour"> <i class="fa-solid fa-delete-left"></i> </span></div>
+            </div>
+
+            <div class="num"><button id="clear" class="orange ">C</button>
+                <button id="give" class="green">()</button>
+                <button id="give" value=% class="green">%</button>
+                <button id="give" value=/ class="green">&#247;</button>
+            </div>
+
+            <div class="num"><button id="give" value=7>7</button>
+                <button id="give" value=8>8</button>
+                <button id="give" value=9>9</button>
+                <button id="give" class="green" value=*>&#215;</button>
+            </div>
+
+            <div class="num"> <button id="give" value=4>4</button>
+                <button id="give" value=5>5</button>
+                <button id="give" value=6>6</button>
+                <button id="give" value=- class="green">-</button>
+            </div>
+            <div class="num"> <button id="give" value=1>1</button>
+                <button id="give" value=2> 2</button>
+                <button id="give" value=3> 3</button>
+                <button id="give" value=+ class="green">&#43;</button>
+            </div>
+
+            <div class="num"> <button id="give">+/-</button>
+                <button id="give" value=0> 0</button>
+                <button id="give" value=".">.</button>
+                <button id="give" class="white" onclick='calc("=")'>=</button>
+            </div>
+
+
+            <div class="last">
+
+                <span><i class="fa-solid fa-pause"></i></span>
+                <span><i class="fa-regular fa-square"></i></span>
+                <span><i class="fa-solid fa-chevron-left"></i></span>
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
